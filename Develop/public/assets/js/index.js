@@ -2,8 +2,9 @@ var $noteTitle = $(".note-title");
 var $noteText = $(".note-textarea");
 var $saveNoteBtn = $(".save-note");
 var $newNoteBtn = $(".new-note");
-var $noteList
+var $noteList = $(".list-container .list-group");
 
+// activeNotes is utlized to keep track of the note within the textarea
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
