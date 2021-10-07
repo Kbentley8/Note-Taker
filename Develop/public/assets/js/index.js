@@ -5,19 +5,16 @@ var $newNoteBtn = $(".new-note");
 var $noteList = $(".list-container .list-group");
 
 // activeNotes is utlized to keep track of the note within the textarea
-if (window.location.pathname === '/notes') {
-  noteTitle = document.querySelector('.note-title');
-  noteText = document.querySelector('.note-textarea');
-  saveNoteBtn = document.querySelector('.save-note');
-  newNoteBtn = document.querySelector('.new-note');
-  noteList = document.querySelectorAll('.list-container .list-group');
-}
+var activeNote ={};
 
-// Show an element
-const show = (elem) => {
-  elem.style.display = 'inline';
+// a function for gathering all the notes from the db
+var getNotes = function() {
+  return $.ajax({
+    url:
+
+  });
+
 };
-
 // Hide an element
 const hide = (elem) => {
   elem.style.display = 'none';
