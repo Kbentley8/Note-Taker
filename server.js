@@ -31,3 +31,5 @@ app.get("/notes", function (req, res) {
 });
 
 
+//API GET Route
+app.get("/api/notes", async function (req, res))
