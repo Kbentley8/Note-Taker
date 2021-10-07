@@ -12,10 +12,9 @@ var getNotes = function() {
   return $.ajax({
     url: "/api/notes",
     method: "GET"
-
   });
-
 };
+
 // A function for saving a note to the db
 var saveNote = function(note) {
   return $.ajax({
@@ -23,20 +22,15 @@ var saveNote = function(note) {
     data: note,
     method: "POST"
   });
-
 };
 
-
-// activeNote is used to keep track of the note in the textarea
-let activeNote = {};
-
-const getNotes = () =>
-  fetch('/api/notes', {
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+// A function for deleting a note from the db
+var deleteNote = function(id) {
+  return $.ajax({
+    url: "api/notes/" + id,
+    method: "DELETE"
   });
+};
 
 const saveNote = (note) =>
   fetch('/api/notes', {
