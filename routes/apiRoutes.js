@@ -3,7 +3,7 @@ const router = require('express').Router();
 
 const saveData = require('../db/saveData');
 
-//GET request
+// GET request
 router.get('/notes', function (req, res) {
     saveData
         .retrieveNotes()
@@ -17,7 +17,6 @@ router.post('/notes', (req, res) => {
         .addNote(req.body)
         .then((note) => res.json(note))
         .catch(err => res.status(500).json(err));
-
 });
 
 // Bonus - DELETE request
