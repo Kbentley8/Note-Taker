@@ -10,15 +10,22 @@ var activeNote ={};
 // a function for gathering all the notes from the db
 var getNotes = function() {
   return $.ajax({
-    url:
+    url: "/api/notes",
+    method: "GET"
 
   });
 
 };
-// Hide an element
-const hide = (elem) => {
-  elem.style.display = 'none';
+// A function for saving a note to the db
+var saveNote = function(note) {
+  return $.ajax({
+    url: "/api/notes",
+    data: note,
+    method: "POST"
+  });
+
 };
+
 
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
