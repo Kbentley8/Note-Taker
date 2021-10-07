@@ -12,3 +12,9 @@ router.get('/', (req, res) => {
 
 });
 // If no matching route is found, default to the home page
+router.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/index.html'));
+});
+
+
+module.exports = router;
