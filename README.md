@@ -1,8 +1,10 @@
 # Note Taker  
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github MIT license](https://img.shields.io/badge/license-MIT-darkred)
+  
+   ![Javascript badge](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)
 
   ## Description 
-  This application was created to allow users to read and write notes. This application uses Express.js to connect the client-side server and back-end server and Node.js for it's file system. This application is deployed on Heroku. 
+  This application was made to help users to read and write notes. This application utilizes Node.js and  Express.js to connect the client-side server and back-end server and Node.js for it's file system. This application is deployed on Heroku. 
 
   ## Table of Contents
   * [Installation](#installation)

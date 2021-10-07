@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static('public')); 
 
 // request data
-const { notes } = require('./data/db.json');
+const { notes } = require('./db/db.json');
 
 // function handling taking the data from req.body and adding it to our animals.json file
 function createNewNote (body, notesArray) {
@@ -26,7 +26,7 @@ function createNewNote (body, notesArray) {
 
     // path to write file 
     fs.writeFileSync(
-        path.join(__dirname, './data/db.json'),
+        path.join(__dirname, './db/db.json'),
         JSON.stringify({ notes : notesArray }, null, 2)
     );
     // return finished code to post route for response
