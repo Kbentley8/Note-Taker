@@ -32,4 +32,7 @@ app.get("/notes", function (req, res) {
 
 
 //API GET Route
-app.get("/api/notes", async function (req, res))
+app.get("/api/notes", async function (req, res) {
+    const noteData = await getNotes();
+    return res.status(200).json(noteData);
+});
