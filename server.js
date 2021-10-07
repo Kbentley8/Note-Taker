@@ -18,3 +18,11 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 app.use(express.static(__dirname + '/public'));
+
+
+// HTML Routes
+// Home Page Route
+app.get("/", function (req, res) {
+
+    
+}
