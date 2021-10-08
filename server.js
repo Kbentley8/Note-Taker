@@ -3,7 +3,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path'); 
 
-// if port is any route or 3001
+// if port 3001
 const PORT = process.env.PORT || 3001; 
 
 // instantiate the server
@@ -19,7 +19,7 @@ app.use(express.static('public'));
 // request data
 const { notes } = require('./db/db.json');
 
-// function handling taking the data from req.body and adding it to our animals.json file
+
 function createNewNote (body, notesArray) {
     const note = body; 
     notesArray.push(note); 
@@ -33,7 +33,7 @@ function createNewNote (body, notesArray) {
     return note; 
 };
 
-// validating data
+// data to be validated
 function validateNote (note) {
     if (!note.title || typeof note.title !== 'string') {
         return false; 
