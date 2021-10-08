@@ -20,7 +20,7 @@
   ## Usage 
   When the repo is cloned, call npm start on the command line. When on the application, add notes by clicking the pencil button on the top right and save using the save button on the top right. Users can look at previous notes by clicking on them on the left side list. Users can also delete an item by clicking the trash button for each note. 
  
-  [Link to Deployed App on Heroku](https://note-takerkb.herokuapp.com/notes)
+  [Link to Deployed App on Heroku](https://note-takerkb.herokuapp.com/)
 
 [Git Hub Repo Link](https://github.com/Kbentley8/Note-Taker)
 
