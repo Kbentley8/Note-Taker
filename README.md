@@ -4,7 +4,7 @@
    ![Javascript badge](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)
 
   ## Description 
-  This application was made to help users to read and write notes. This application utilizes Node.js and  Express.js to connect the client-side server and back-end server and Node.js for it's file system. This application is deployed on Heroku. 
+  This application was made to help users to read and write notes. This application utilizes Node.js and  Express.js to connect the client-side server and back-end server and Node.js for it's file system. Heroku is used to deploy the application. 
 
   ## Table of Contents
   * [Installation](#installation)
@@ -18,17 +18,21 @@
   The user should first clone the repository to their local computer from GitHub and then download both Node.js and Express.js. 
 
   ## Usage 
-  If the repo is cloned, call npm start on the command line. When on the application, add notes by clicking the pencil icon on the top right and save using the save icon on the top right. Users can view previous notes by clicking on them on the left side list. Users can also delete an item by clicking the trash icon for each note. <br>
-  )
+  When the repo is cloned, call npm start on the command line. When on the application, add notes by clicking the pencil button on the top right and save using the save button on the top right. Users can look at previous notes by clicking on them on the left side list. Users can also delete an item by clicking the trash button for each note. 
+ 
+  [Link to Deployed App on Heroku](https://note-takerkb.herokuapp.com/notes)
 
-  ## License 
+[Git Hub Repo Link](https://github.com/Kbentley8/Note-Taker)
+
+## Demo 
+![ezgif com-gif-maker (9)](https://user-images.githubusercontent.com/88289885/136490190-03c90273-fff0-42eb-a463-e46239238283.gif)
+
   This project is license under MIT
 
   ## Contributing 
-  Contributors should read the installation section. 
-
+  none
   ## Tests
-  There are no tests for this application. 
+   no tests for this application. 
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at aubentley80@gmail.com. You can view more of my projects at https://github.com/Kbentley8.
+  If you have any questions about this projects, please contact me directly at aubentley80@gmail.com. You can take a look at more of my projects at https://github.com/Kbentley8.
