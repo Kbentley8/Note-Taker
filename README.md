@@ -1,4 +1,4 @@
-# Note Taker  
+# Note Taker App
   ![Github MIT license](https://img.shields.io/badge/license-MIT-darkred)
   
    ![Javascript badge](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)
